@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_101">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="CATALINA_HOME/bin/bootstrap.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/bin/commons-daemon.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/bin/tomcat-juli.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/catalina-ant.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/catalina-ha.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/catalina-tribes.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/catalina.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/ecj-4.5.1.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/jasper-el.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/jaspic-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-api.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-jni.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-util.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="var" path="CATALINA_HOME/lib/websocket-api.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
