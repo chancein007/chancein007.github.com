@@ -1,7 +1,8 @@
 package com.winneryum.powermock.easymock;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.verify;
 import static org.powermock.api.mockito.PowerMockito.mockStatic;
 import static org.powermock.api.mockito.PowerMockito.when;
@@ -39,10 +40,11 @@ public class ServiceRegistratorTest {
 
         long actualId = tested.registerService(new Object());
 
-        // Note how we verify the class, not the instance!
+
         verify(IdGenerator.class);
 
-        // Assert that the ID is correct
+
         assertThat(actualId, is(expectedId));
+        assertEquals(1.0D,1.0D,0.01D);
     }
 }
